@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="template-style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class=main>
+            <div>
+                <h1><span id=main1>C</span><span id=main2>o</span><span id=main3>l</span><span id=main4>o</span><span
+                        id=main5>r</span><span id=main6>P</span><span id=main7>i</span><span id=main8>x</span><span
+                        id=main9>e</span><span id=main10>l</span>
+                      
+                    <span class="shift1">
+                        <button class="log">Log In</button>
+                        <button class="log">Register</button>
+                        <i class="fa fa-user-circle"></i></span></h1>
+                <h3>Every color matters</h3>
+
+
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="templates1.html">Templates</a></li>
+                <li><a href="themes1.html">Themes</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="https://localhost/login/login.php">Login</a></li>
+                <li><a href="https://localhost/login/register.php">Register</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <button class="cop">Copy</button>
+    
+    <script>
+(function() {
+        $(".cop").on("click", function() {
+      
+          var $this = $(this),
+              oldText = $this.text();
+      
+          $this.text("Copied");
+          $this.attr("disabled", "disabled");
+      
+          setTimeout(function() {
+            $this.text(oldText);
+            $this.removeAttr("disabled");
+          }, 2000);
+      
+        });
+      })();
+</script>
+</body>
+</html>

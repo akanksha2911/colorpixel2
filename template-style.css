@@ -106,7 +106,7 @@
     font-weight: bolder;
     font-size: 50px;
   }
-  .copy{
+  .cop{
     float:right;
     background-color: white;
     color:black;
@@ -118,7 +118,7 @@
     border-bottom-left-radius: 5px;
     font-size: 20px;
   }
-  .copy:hover{
+  .cop:hover{
     background-color: salmon;
     color: black;
   }
